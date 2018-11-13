@@ -24,14 +24,17 @@
             android:orientation="horizontal">
             <TextView
                 android:id="@+id/top_textView1"
+                android:paddingTop="2dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text=""
+                android:fontFamily="@font/circle"
                 android:textColor="#FFFFFF"
-                android:textStyle="bold"
                 android:layout_marginLeft="15dp"/>
             <TextView
                 android:id="@+id/top_textView2"
+                android:fontFamily="@font/circle"
+                android:paddingTop="2dp"
                 android:layout_width="wrap_content"
                 android:textColor="#FFFFFF"
                 android:layout_height="wrap_content"
@@ -43,13 +46,12 @@
             android:id="@+id/lastpage_name"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-
-            
+            android:fontFamily="@font/mak"
             android:textColor="#000000"
-            android:textSize="30sp"
+            android:textSize="37dp"
             android:layout_marginLeft="25dp"
-            android:textStyle="bold"
             android:layout_marginTop="20dp"
+            android:textStyle="bold"
             android:layout_marginBottom="20dp"/>
 
         <LinearLayout
@@ -239,13 +241,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="38dp"
                     android:layout_gravity="center"
-
-
-                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/mak"
                     android:paddingLeft="12dp"
+                    android:layout_marginTop="2sp"
                     android:text="이용 정보"
                     android:textColor="#FFFFFF"
-                    android:textSize="20sp" />
+                    android:textSize="26dp" />
             </LinearLayout>
 
 
@@ -359,8 +360,9 @@
                     android:layout_weight="1"
                     android:paddingLeft="15dp"
                     android:text="장소 정보"
+                    android:fontFamily="@font/mak"
                     android:textColor="#FFFFFF"
-                    android:textSize="20sp"
+                    android:textSize="26dp"
                     />
             </LinearLayout>
 
@@ -395,12 +397,11 @@
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
+                android:fontFamily="@font/mak"
                 android:gravity="center"
                 android:text="위치정보"
                 android:textColor="#FFFFFF"
-                android:textSize="20sp"
-                android:textStyle="bold"
+                android:textSize="26dp"
                />
         </LinearLayout>
 
