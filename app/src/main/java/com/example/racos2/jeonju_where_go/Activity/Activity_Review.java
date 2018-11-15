@@ -70,7 +70,7 @@ public class Activity_Review extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar2);
         setSupportActionBar(toolbar);
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setHomeAsUpIndicator(R.drawable.backicon);
+        //actionBar.setHomeAsUpIndicator(R.drawable.backicon);
         actionBar.setDisplayHomeAsUpEnabled(true);
 
         TextView toolbar_textview = (TextView)findViewById(R.id.toolbar_textview);
@@ -151,22 +151,22 @@ public class Activity_Review extends AppCompatActivity {
 
     }
 
-    /** 뒤로 가기 버튼 선택될때*/
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        switch (id) {
-            case android.R.id.home:
-                onBackPressed();            //뒤로가기 기능
-                return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
-    /** 뒤로 가기 버튼 선택할때*/
+//    /** 뒤로 가기 버튼 선택될때*/
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//        // Handle action bar item clicks here. The action bar will
+//        // automatically handle clicks on the Home/Up button, so long
+//        // as you specify a parent activity in AndroidManifest.xml.
+//        int id = item.getItemId();
+//
+//        switch (id) {
+//            case android.R.id.home:
+//                onBackPressed();            //뒤로가기 기능
+//                return true;
+//        }
+//        return super.onOptionsItemSelected(item);
+//    }
+//    /** 뒤로 가기 버튼 선택할때*/
 
 
 
